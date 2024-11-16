@@ -13,14 +13,14 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
-
+//
 // Database configuration
 // Update with your own DB info from azure
 const config = {
-    user: 'azureuser',
+    user: 'A3',
     password: 'P@ssw0rdssss',
-    server: 'week911.database.windows.net',
-    database: 'week911',
+    server: 'a3907340.database.windows.net',
+    database: 'A3',
     options: {
         encrypt: true,
         enableArithAbort: true
