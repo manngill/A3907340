@@ -23,7 +23,7 @@ const config = {
     database: 'A3',
     options: {
         encrypt: true,
-        enableArithAbort: true
+        enableArithAbort: trues
   }
 };
 
